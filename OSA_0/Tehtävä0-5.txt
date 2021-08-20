@@ -1,0 +1,18 @@
+title SPA kaavio
+
+selain->palvelin HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa
+
+palvelin->selain HTML koodi
+
+selain->palvelin HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.css
+
+palvelin->selain main.css
+
+selain->palvelin HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa.js
+
+palvelin->selain application/javascript (SPA koodi)
+
+selain->palvelin HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json
+
+palvelin->selain [{content: "hello", date: "2021-08-20T07:09:30.341Z"},…]
+
