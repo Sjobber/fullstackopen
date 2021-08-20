@@ -1,0 +1,8 @@
+title SPA muistiinpanon lähetys
+
+selain->palvelin HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
+SPA javascript koodi estää selaimen oletusarvoisen toiminnan lähetä nappia painaessa,
+kirjoittaa muistiinpano listan uudestaan ja lähettää uuden muistiinpanon palvelimelle.
+
+
